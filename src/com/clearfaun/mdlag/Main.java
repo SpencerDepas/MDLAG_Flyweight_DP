@@ -28,7 +28,7 @@ public class Main {
             //servings is the extrinsic information
 
             flyweight = foodFlyweightFactory.getFlyweight(FoodFlyweightFactory.CORN_FOOD);
-            flyweight.feed("Bear", servings);
+            flyweight.feed("FIsh", servings);
         }
 
 

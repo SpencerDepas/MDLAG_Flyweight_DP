@@ -10,7 +10,7 @@ public class CornFood implements FoodFlyweight {
     //intrinsic info
     public CornFood(){
         System.out.println("Making corn food");
-        //making corn food is costly, lets only make it once
+        //making corn food is costly,  lets only make it once
         try {
             Thread.sleep(3000);
         } catch (InterruptedException e) {
