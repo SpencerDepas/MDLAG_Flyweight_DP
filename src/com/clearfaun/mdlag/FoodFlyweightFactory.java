@@ -7,7 +7,7 @@ import java.util.Map;
  * Created by SpencerDepas on 6/21/16.
  */
 public class FoodFlyweightFactory {
-    //
+
 
     private static FoodFlyweightFactory mFlyweightFactory;
     private Map<String, FoodFlyweight> mFlyweightHashMap;
