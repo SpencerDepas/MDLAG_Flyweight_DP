@@ -5,6 +5,6 @@ package com.clearfaun.mdlag;
  */
 public interface FoodFlyweight {
 
-    public void feed(String animal, int servings);
+    void feed(String animal, int servings);
 
 }

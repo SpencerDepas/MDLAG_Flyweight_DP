@@ -28,7 +28,7 @@ public class Main {
             //servings is the extrinsic information
 
             flyweight = foodFlyweightFactory.getFlyweight(FoodFlyweightFactory.CORN_FOOD);
-            flyweight.feed("Bear", servings);
+            flyweight.feed("FIsh", servings);
         }
 
 
@@ -43,7 +43,7 @@ public class Main {
         //Some animals need more servings than others.
         //A Bear will eat 4 servings of corn food.
 
-        //this repeats 100 times
+        //this repeats 1000 times
 
 
 

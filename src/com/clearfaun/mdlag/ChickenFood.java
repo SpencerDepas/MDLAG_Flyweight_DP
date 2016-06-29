@@ -10,7 +10,7 @@ public class ChickenFood implements FoodFlyweight {
     //intrinsic info
     public ChickenFood(){
         System.out.println("Making chicken food");
-        //making chicken food is costly, lets only make it once
+        //making chicken food is costly,  lets only make it once
         try {
             Thread.sleep(3000);
         } catch (InterruptedException e) {

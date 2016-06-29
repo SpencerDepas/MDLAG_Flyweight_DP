@@ -8,6 +8,7 @@ import java.util.Map;
  */
 public class FoodFlyweightFactory {
 
+
     private static FoodFlyweightFactory mFlyweightFactory;
     private Map<String, FoodFlyweight> mFlyweightHashMap;
     public final static String CHICKEN_FOOD = "chicken";
